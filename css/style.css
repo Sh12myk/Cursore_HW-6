@@ -164,6 +164,7 @@ li {
 .data-storage__about-img{
     background-image: url("../additional_files/img/image2.png");
     background-size: contain;
+    background-repeat: no-repeat;
 }
 .data-storage__about-advantage{
     display: grid;
