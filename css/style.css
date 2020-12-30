@@ -72,7 +72,9 @@ body{
     transition: all 0.22s linear  ;
     opacity: 0.95;
 }
-
+.request__button img{
+    width: 20px;
+}
 .request__button{
     display: grid;
     grid-template-columns: 8em 1.5em;
@@ -266,6 +268,25 @@ li {
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: 90% 30%;
+}
+.features__search-data__description__button img,
+.features__24access__description__button img,
+.features__print-out__description__button img,
+.features__security-code__description__button img,
+.testimonials__control__button-arrow-right img{
+    width: 20px;
+}
+.testimonials__control__button-arrow-left img{
+    width: 40px;
+}
+.sm-link a img {
+    width: 50px;
+}
+.chat-icon img{
+    width: 60px;
+}
+.footer__info__address__logo img{
+    width: 49px;
 }
 .features__search-data__description{
     display: grid;
