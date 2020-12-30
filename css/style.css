@@ -17,20 +17,32 @@ html { overflow-x:  hidden; }
 body{
     display: grid;
     font-family: "Avenir", "Helvetica", sans-serif;
+    max-width: 1117px;
     min-height: 100vh;
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%); no-repeat;
     background-size: contain;
+    margin-left: auto;
+    margin-right: auto;
+
 }
 .grid__header{
     display: grid;
-    grid-template-columns: 6em 24em 15em;
+    grid-template-columns: 15em 30em 20em;
     justify-content: space-around;
     align-items: center;
+    max-width: 1117px;;
     max-height: 11em;
     font-family: "Avenir", sans-serif;
     margin-top: 2.5em;
 }
+.container{
 
+    max-width: 1600px;
+
+}
+.logo img{
+    max-width: 49px;
+}
 .grid__nav{
     display: grid;
     grid-template-columns: 6em 6em 6em 6em;
@@ -99,11 +111,15 @@ li {
     grid-row-gap: 3.6em;
     justify-content: left;
     height: 100vh;
+    max-width: 1117px;
     background-image: url("../additional_files/img/image1.png");
     background-repeat: no-repeat;
     background-size: 75%;
     background-position: right bottom;
-    margin-left: 3.5em;
+    margin-right: auto;
+    margin-left: auto;
+
+
 
 }
 .data-storage__header{
@@ -156,10 +172,13 @@ li {
     background-color: rgba(240, 99, 184, 0.15);
     border-radius: 50px;
     height: 85vh;
-    width: 90vw;
+    max-height: 560px;
+    max-width: 1117px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 10em;
+    box-sizing: border-box;
 }
 .data-storage__about-img{
     background-image: url("../additional_files/img/image2.png");
@@ -473,8 +492,9 @@ li {
     align-items: center;
 }
 .testimonials{
+    max-width: 1117px;
     width: 90vw;
-    height: 100vh;
+    height: 95vh;
     box-sizing: border-box;
     display: grid;
     grid-template-rows: 30% 60% 10%;
@@ -594,19 +614,29 @@ li {
 }
 
 .line{
+    display: block;
+    position: absolute;
+    bottom: 60%;
+    top: 515%;
+    left: 0%;
     margin-top: 8em;
     margin-bottom: 8em;
-    width: 100%;
+    width: 100vw;
     background: #9C69E2;
     opacity: 0.2;
     height: 2px;
+    box-sizing: content-box;
+
 }
 .footer__offer{
+    max-width: 1117px;
     width: 90vw;
     height: 40vh;
     display: grid;
     grid-template-columns: auto auto;
-    margin-bottom: 8em;
+    grid-column-gap: 300px;
+    margin: 23em auto 2em auto;
+    box-sizing: border-box;
 }
 .footer__offer-text{
     display: grid;
@@ -665,6 +695,7 @@ li {
     margin-top: 3em;
 }
 .footer__info{
+    max-width: 1117px;
     width: 90vw;
     height: 80vh;
     display: grid;
@@ -765,6 +796,7 @@ address {
     border-radius: 100%;
 }
 .footer__bottom{
+    max-width: 1117px;
     width: 90vw;
     height: 30vh;
     display: grid;
